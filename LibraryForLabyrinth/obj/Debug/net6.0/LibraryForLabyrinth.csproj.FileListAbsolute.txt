@@ -1,0 +1,12 @@
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\bin\Debug\net6.0\LibraryForLabyrinth.deps.json
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\bin\Debug\net6.0\LibraryForLabyrinth.dll
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\bin\Debug\net6.0\LibraryForLabyrinth.pdb
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\obj\Debug\net6.0\LibraryForLabyrinth.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\obj\Debug\net6.0\LibraryForLabyrinth.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\obj\Debug\net6.0\LibraryForLabyrinth.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\obj\Debug\net6.0\LibraryForLabyrinth.AssemblyInfo.cs
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\obj\Debug\net6.0\LibraryForLabyrinth.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\obj\Debug\net6.0\LibraryForLabyrinth.dll
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\obj\Debug\net6.0\refint\LibraryForLabyrinth.dll
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\obj\Debug\net6.0\LibraryForLabyrinth.pdb
+C:\Users\Hi-tech\source\repos\LibraryForLabyrinth\obj\Debug\net6.0\ref\LibraryForLabyrinth.dll

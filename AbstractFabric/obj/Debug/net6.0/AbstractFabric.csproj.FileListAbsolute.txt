@@ -1,0 +1,5 @@
+C:\Users\Hi-tech\source\repos\AbstractFabric\obj\Debug\net6.0\AbstractFabric.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\AbstractFabric\obj\Debug\net6.0\AbstractFabric.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\source\repos\AbstractFabric\obj\Debug\net6.0\AbstractFabric.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\source\repos\AbstractFabric\obj\Debug\net6.0\AbstractFabric.AssemblyInfo.cs
+C:\Users\Hi-tech\source\repos\AbstractFabric\obj\Debug\net6.0\AbstractFabric.csproj.CoreCompileInputs.cache
