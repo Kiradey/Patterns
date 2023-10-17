@@ -8,9 +8,13 @@ namespace LibraryForLabyrinth
         private readonly bool _isOpen;
         public Door(Room room1, Room room2, bool isOpen)
         {
-            if (room1 == null || room2 == null)
+            if (room1 == null)
             {
-                throw new ArgumentNullException("Комнаты не могут быть пустыми.");
+                throw new ArgumentNullException("Комната не может быть пустой!.");
+            }
+            if (room2 == null)
+            {
+                throw new ArgumentNullException("Комната не может быть пустой!");
             }
             _room1 = room1;
             _room2 = room2;
@@ -18,17 +22,21 @@ namespace LibraryForLabyrinth
         }
         public Room OtherSideFrom(Room site)
         {
-            if (site.RoomNumber == _room1.RoomNumber)
+            if (site == null)
+            {
+                throw new ArgumentNullException("Пусто значение!");
+            }
+            if (site.roomNumber == _room1.roomNumber)
             {
                 return _room2;
             }
-            else if (site.RoomNumber == _room2.RoomNumber)
+            else if (site.roomNumber == _room2.roomNumber)
             {
                 return _room1;
             }
             else
             {
-                throw new ArgumentOutOfRangeException();
+                throw new ArgumentOutOfRangeException("Неверный номер комнаты.");
             }
         }
         public virtual void Enter()

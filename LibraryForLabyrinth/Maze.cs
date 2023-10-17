@@ -4,14 +4,22 @@ namespace LibraryForLabyrinth
 {
     public class Maze
     {
-        private List<Room> roomList = new List<Room>();
+        private List<Room> _roomList = new List<Room>();
         public void AddRoom(Room room)
         {
-            roomList.Add(room);
+            if (room == null)
+            {
+                throw new ArgumentNullException("Комната не может быть пустой.");
+            }
+            _roomList.Add(room);
         }
         public Room? NumberCheck(int Number)
         {
-            return roomList.SingleOrDefault(room => room.RoomNumber == Number);
+            if (Number < 0)
+            {
+                throw new ArgumentOutOfRangeException("Номер комнаты не может быть отрицательным.");
+            }
+            return _roomList.SingleOrDefault(room => room.roomNumber == Number);
         }
     }
 }

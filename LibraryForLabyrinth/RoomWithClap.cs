@@ -1,23 +1,30 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
 namespace LibraryForLabyrinth
 {
     public class RoomWithClap : Room
     {
-        private readonly DoorWithClap _clapDoor;
-        private readonly Room _room1;
-        private readonly Room _room2;
-        public RoomWithClap(int roomNumber) : base(roomNumber)
+        private readonly DoorWithClap? _clapDoor;
+        public RoomWithClap(int roomNumber, List<IMapSite> sideInit) : base(roomNumber)
         {
-            _room1 = new Room(1);
-            _room2 = new Room(2);
+            if (sideInit == null)
+            {
+                throw new ArgumentNullException("Список сторон не может быть пустым.");
+            }
 
-            _clapDoor = new DoorWithClap(_room1, _room2);
+            _clapDoor = sideInit.OfType<DoorWithClap>().FirstOrDefault();
         }
         public override void Enter()
         {
             base.Enter();
             Console.WriteLine("Хлопок! Вы встретили хлопушку!");
-            _clapDoor.Enter();
+            if (_clapDoor != null)
+            {
+                _clapDoor.Enter();
+            }
         }
     }
+
 }
