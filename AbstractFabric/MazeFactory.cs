@@ -1,5 +1,6 @@
 ﻿using LibraryForLabyrinth;
 using System;
+
 namespace AbstractFabric
 {
     public abstract class MazeFactory
@@ -14,11 +15,24 @@ namespace AbstractFabric
         }
         public virtual Room MakeRoom(int roomNumber)
         {
+            if (roomNumber <= 0)
+            {
+                throw new ArgumentException("Номер комнаты должен быть положительным числом.", nameof(roomNumber));
+            }
             return new Room(roomNumber);
         }
-        public virtual Door MakeDoor(Room _room1, Room _room2)
+        public virtual Door MakeDoor(Room room1, Room room2)
         {
-            return new Door(_room1, _room2, true);
+            if (room1 == null)
+            {
+                throw new ArgumentNullException(nameof(room1), "Комната не может быть пустой.");
+            }
+
+            if (room2 == null)
+            {
+                throw new ArgumentNullException(nameof(room2), "Комната не может быть пустой.");
+            }
+            return new Door(room1, room2, true);
         }
     }
 }

@@ -12,8 +12,8 @@ namespace AbstractFabric
         public static Maze CreateMaze(MazeFactory factory)
         {
             Maze maze = factory.MakeMaze();
-            Room room1 = factory.MakeRoom(1);
-            Room room2 = factory.MakeRoom(2);
+            Room room1 = factory.MakeRoom(2);
+            Room room2 = factory.MakeRoom(3);
             Door door = factory.MakeDoor(room1, room2);
 
             maze.AddRoom(room1);
