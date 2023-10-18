@@ -17,17 +17,13 @@ namespace AbstractFabric
             }
             return new DoorWithClap(room1, room2);
         }
-
         public override Room MakeRoom(int Number)
         {
             if (Number <= 0)
             {
                 throw new ArgumentException("Номер комнаты должен быть положительным числом.");
             }
-            var sideInit = new List<IMapSite>();
-            sideInit.Add(new WallWithBomb());
-            sideInit.Add(new RoomWithClap(0, sideInit));
-            return new RoomWithClap(Number, sideInit);
+            return new RoomWithClap(Number);
         }
     }
 }
