@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using LibraryForLabyrinth;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Builder
 {
@@ -57,6 +52,10 @@ namespace Builder
         }
         protected virtual Room CreateRoom(int roomNumber)
         {
+            if (roomNumber < 0)
+            {
+                throw new ArgumentException("Номер комнаты должен быть неотрицательным.");
+            }
             return new Room(roomNumber);
         }
     }
