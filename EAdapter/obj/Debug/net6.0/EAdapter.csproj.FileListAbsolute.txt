@@ -1,0 +1,15 @@
+C:\Users\Hi-tech\source\repos\EAdapter\bin\Debug\net6.0\EAdapter.exe
+C:\Users\Hi-tech\source\repos\EAdapter\bin\Debug\net6.0\EAdapter.deps.json
+C:\Users\Hi-tech\source\repos\EAdapter\bin\Debug\net6.0\EAdapter.runtimeconfig.json
+C:\Users\Hi-tech\source\repos\EAdapter\bin\Debug\net6.0\EAdapter.dll
+C:\Users\Hi-tech\source\repos\EAdapter\bin\Debug\net6.0\EAdapter.pdb
+C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\EAdapter.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\EAdapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\EAdapter.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\EAdapter.AssemblyInfo.cs
+C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\EAdapter.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\EAdapter.dll
+C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\refint\EAdapter.dll
+C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\EAdapter.pdb
+C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\EAdapter.genruntimeconfig.cache
+C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\ref\EAdapter.dll
