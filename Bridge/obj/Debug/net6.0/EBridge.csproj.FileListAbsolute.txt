@@ -1,0 +1,15 @@
+C:\Users\Hi-tech\source\repos\Bridge\bin\Debug\net6.0\EBridge.exe
+C:\Users\Hi-tech\source\repos\Bridge\bin\Debug\net6.0\EBridge.deps.json
+C:\Users\Hi-tech\source\repos\Bridge\bin\Debug\net6.0\EBridge.runtimeconfig.json
+C:\Users\Hi-tech\source\repos\Bridge\bin\Debug\net6.0\EBridge.dll
+C:\Users\Hi-tech\source\repos\Bridge\bin\Debug\net6.0\EBridge.pdb
+C:\Users\Hi-tech\source\repos\Bridge\obj\Debug\net6.0\EBridge.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\Bridge\obj\Debug\net6.0\EBridge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\source\repos\Bridge\obj\Debug\net6.0\EBridge.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\source\repos\Bridge\obj\Debug\net6.0\EBridge.AssemblyInfo.cs
+C:\Users\Hi-tech\source\repos\Bridge\obj\Debug\net6.0\EBridge.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\source\repos\Bridge\obj\Debug\net6.0\EBridge.dll
+C:\Users\Hi-tech\source\repos\Bridge\obj\Debug\net6.0\refint\EBridge.dll
+C:\Users\Hi-tech\source\repos\Bridge\obj\Debug\net6.0\EBridge.pdb
+C:\Users\Hi-tech\source\repos\Bridge\obj\Debug\net6.0\EBridge.genruntimeconfig.cache
+C:\Users\Hi-tech\source\repos\Bridge\obj\Debug\net6.0\ref\EBridge.dll
