@@ -9,17 +9,21 @@ namespace LibraryForLabyrinth
         {
             if (room == null)
             {
-                throw new ArgumentNullException("Комната не может быть пустой.");
+                throw new ArgumentNullException(nameof(room), "Комната не может быть пустой!");
             }
             _roomList.Add(room);
         }
         public Room? NumberCheck(int Number)
         {
-            if (Number < 0)
+            if (Number <= 0)
             {
-                throw new ArgumentOutOfRangeException("Номер комнаты не может быть отрицательным.");
+                throw new ArgumentOutOfRangeException(nameof(Number),"Номер комнаты должен быть больше 0.");
             }
             return _roomList.SingleOrDefault(room => room.roomNumber == Number);
+        }
+        public Maze Clone()
+        {
+            return new Maze();
         }
     }
 }

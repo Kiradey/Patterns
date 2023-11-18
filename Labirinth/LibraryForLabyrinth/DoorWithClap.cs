@@ -8,11 +8,11 @@ namespace LibraryForLabyrinth
         {
             if (room1 == null)
             {
-                throw new ArgumentNullException("Комната не может быть пустой.");
+                throw new ArgumentNullException(nameof(room1),"Комната не может быть пустой.");
             }
             if (room2 == null)
             {
-                throw new ArgumentNullException("Комната не может быть пустой.");
+                throw new ArgumentNullException(nameof(room2),"Комната не может быть пустой.");
             }
         }
         public override void Enter()

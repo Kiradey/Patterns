@@ -10,8 +10,8 @@ namespace EBridge
     public class Remote
     {
         protected IImplementor implementor { get; private set; }
-        public int Power { get; set; }
-        public int Mode { get; set; }
+        public int Power { get;protected set; }
+        public int Mode { get;protected set; }
         public Remote(IImplementor implementor)
         {
             if (implementor == null)

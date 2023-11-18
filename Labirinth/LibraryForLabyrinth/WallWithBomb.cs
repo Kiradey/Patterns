@@ -4,7 +4,7 @@ namespace LibraryForLabyrinth
     public class WallWithBomb : Wall
     {
         private bool _isDestroyed = false;
-        public void Explode()
+        public void DestroyedWall()
         {
             if (!_isDestroyed)
             {
@@ -22,6 +22,10 @@ namespace LibraryForLabyrinth
             {
                 base.Enter();
             }
+        }
+        public override Wall Clone()
+        {
+            return new WallWithBomb();
         }
     }
 }

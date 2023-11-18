@@ -7,5 +7,9 @@ namespace LibraryForLabyrinth
         {
             Console.WriteLine("Вы не можете пройти через стену.");
         }
+        public virtual Wall Clone()
+        {
+            return new Wall();
+        }
     }
 }

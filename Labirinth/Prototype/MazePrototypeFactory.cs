@@ -13,44 +13,31 @@ namespace Prototype
         private Room _protoRoom;
         private Wall _protoWall;
         private Door _protoDoor;
-        public MazePrototypeFactory(Maze protoMaze, Room protoRoom, Wall protoWall, Door protoDoor)
+        protected MazePrototypeFactory(Maze maze, Room room, Wall wall, Door door)
         {
-            _protoMaze = protoMaze;
-            _protoRoom = protoRoom;
-            _protoWall = protoWall;
-            _protoDoor = protoDoor;
+            _protoMaze = maze;
+            _protoRoom = room;
+            _protoWall = wall;
+            _protoDoor = door;
         }
+        public MazePrototypeFactory()
+        : this(new Maze(), new Room(), new Wall(), new Door())
+        { }
         public override Maze MakeMaze()
         {
             return _protoMaze.Clone();
         }
-        public override Room MakeRoom(int roomNumber)
+        public Room MakeRoom()
         {
-            if (roomNumber < 0)
-            {
-                throw new ArgumentOutOfRangeException(nameof(roomNumber), "Комната с отрицательным номером.");
-            }
-            var room = _protoRoom.Clone();
-            room.Initializing(roomNumber);
-            return room;
+            return _protoRoom.Clone();
         }
         public override Wall MakeWall()
         {
             return _protoWall.Clone();
         }
-        public override Door MakeDoor(Room room1, Room room2)
+        public  Door MakeDoor()
         {
-            if (room1 == null)
-            {
-                throw new ArgumentNullException(nameof(room1), "Комнаты не существует.");
-            }
-            if (room2 == null)
-            {
-                throw new ArgumentNullException(nameof(room2), "Комнаты не существует.");
-            }
-            var door = _protoDoor.Clone();
-            door.Initializing(room1, room2);
-            return door;
+            return _protoDoor.Clone();
         }
     }
 }

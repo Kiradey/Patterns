@@ -6,24 +6,18 @@ namespace LibraryForLabyrinth
 {
     public class RoomWithClap : Room
     {
-        private readonly DoorWithClap? _clapDoor;
-        public RoomWithClap(int roomNumber, List<IMapSite> sideInit) : base(roomNumber)
+        public RoomWithClap(int roomNumber) : base(roomNumber)
         {
-            if (sideInit == null)
-            {
-                throw new ArgumentNullException("Список сторон не может быть пустым.");
-            }
-
-            _clapDoor = sideInit.OfType<DoorWithClap>().FirstOrDefault();
         }
         public override void Enter()
         {
             base.Enter();
             Console.WriteLine("Хлопок! Вы встретили хлопушку!");
-            if (_clapDoor != null)
-            {
-                _clapDoor.Enter();
-            }
+            SideInit.OfType<DoorWithClap>().ToList().ForEach(door=>door.Enter());
+        }
+        public override Room Clone()
+        {
+            return new RoomWithClap(roomNumber);
         }
     }
 

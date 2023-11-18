@@ -7,9 +7,9 @@ namespace LibraryForLabyrinth
         protected IMapSite[] SideInit { get; private set; }
         public Room(int roomNumber)
         {
-            if (roomNumber < 0)
+            if (roomNumber <= 0)
             {
-                throw new ArgumentException("Неверный номер комнаты.");
+                throw new ArgumentException(nameof(roomNumber), "Неверный номер комнаты.");
             }
             this.roomNumber = roomNumber;
             SideInit = new IMapSite[4];
@@ -25,6 +25,18 @@ namespace LibraryForLabyrinth
         public void SetSide(Direction direction, IMapSite site)
         {
             SideInit[(int)direction] = site;
+        }
+        public virtual Room Clone()
+        {
+            return new Room(roomNumber);
+        }
+        public void Initializing(int roomNumber)
+        {
+            if (roomNumber < 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(roomNumber), "Комната с отрицательным номером.");
+            }
+            this.roomNumber = roomNumber;
         }
     }
 }
