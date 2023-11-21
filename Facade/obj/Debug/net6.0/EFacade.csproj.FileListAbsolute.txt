@@ -1,0 +1,15 @@
+C:\Users\Hi-tech\source\repos\Facade\bin\Debug\net6.0\EFacade.exe
+C:\Users\Hi-tech\source\repos\Facade\bin\Debug\net6.0\EFacade.deps.json
+C:\Users\Hi-tech\source\repos\Facade\bin\Debug\net6.0\EFacade.runtimeconfig.json
+C:\Users\Hi-tech\source\repos\Facade\bin\Debug\net6.0\EFacade.dll
+C:\Users\Hi-tech\source\repos\Facade\bin\Debug\net6.0\EFacade.pdb
+C:\Users\Hi-tech\source\repos\Facade\obj\Debug\net6.0\EFacade.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\Facade\obj\Debug\net6.0\EFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\source\repos\Facade\obj\Debug\net6.0\EFacade.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\source\repos\Facade\obj\Debug\net6.0\EFacade.AssemblyInfo.cs
+C:\Users\Hi-tech\source\repos\Facade\obj\Debug\net6.0\EFacade.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\source\repos\Facade\obj\Debug\net6.0\EFacade.dll
+C:\Users\Hi-tech\source\repos\Facade\obj\Debug\net6.0\refint\EFacade.dll
+C:\Users\Hi-tech\source\repos\Facade\obj\Debug\net6.0\EFacade.pdb
+C:\Users\Hi-tech\source\repos\Facade\obj\Debug\net6.0\EFacade.genruntimeconfig.cache
+C:\Users\Hi-tech\source\repos\Facade\obj\Debug\net6.0\ref\EFacade.dll
