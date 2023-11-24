@@ -1,0 +1,15 @@
+C:\Users\Hi-tech\source\repos\Decorator\bin\Debug\net6.0\EDecorator.exe
+C:\Users\Hi-tech\source\repos\Decorator\bin\Debug\net6.0\EDecorator.deps.json
+C:\Users\Hi-tech\source\repos\Decorator\bin\Debug\net6.0\EDecorator.runtimeconfig.json
+C:\Users\Hi-tech\source\repos\Decorator\bin\Debug\net6.0\EDecorator.dll
+C:\Users\Hi-tech\source\repos\Decorator\bin\Debug\net6.0\EDecorator.pdb
+C:\Users\Hi-tech\source\repos\Decorator\obj\Debug\net6.0\EDecorator.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\Decorator\obj\Debug\net6.0\EDecorator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\source\repos\Decorator\obj\Debug\net6.0\EDecorator.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\source\repos\Decorator\obj\Debug\net6.0\EDecorator.AssemblyInfo.cs
+C:\Users\Hi-tech\source\repos\Decorator\obj\Debug\net6.0\EDecorator.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\source\repos\Decorator\obj\Debug\net6.0\EDecorator.dll
+C:\Users\Hi-tech\source\repos\Decorator\obj\Debug\net6.0\refint\EDecorator.dll
+C:\Users\Hi-tech\source\repos\Decorator\obj\Debug\net6.0\EDecorator.pdb
+C:\Users\Hi-tech\source\repos\Decorator\obj\Debug\net6.0\EDecorator.genruntimeconfig.cache
+C:\Users\Hi-tech\source\repos\Decorator\obj\Debug\net6.0\ref\EDecorator.dll

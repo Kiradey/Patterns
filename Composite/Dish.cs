@@ -8,14 +8,14 @@ namespace Composite
 {
     public class Dish : IComponent
     {
-        public string name { get; private set; }
+        public string Name { get; private set; }
         public Dish(string name)
         {
             if (name == null)
             {
                 throw new ArgumentNullException(nameof(name), "Имени не обнаружено!");
             }
-            this.name = name;
+            Name = name;
         }
         public void Add(IComponent component)
         {
@@ -35,12 +35,7 @@ namespace Composite
         }
         public void Print()
         {
-            if (name == null)
-            {
-                throw new ArgumentNullException(nameof(name), "Имени не обнаружено!");
-            }
-            Console.WriteLine($"-{name}.");
+            Console.WriteLine($"~{Name}.");
         }
-
     }
 }

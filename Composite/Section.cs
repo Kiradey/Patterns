@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Composite
 {
     public class Section : IComponent
     {
         private readonly List<IComponent> _menuOfComponents = new List<IComponent>();
-        public string name { get; private set; }
+        public string Name { get; private set; }
         public Section(string name)
         {
             if (name == null)
             {
                 throw new ArgumentNullException(nameof(name), "Имени не обнаружено!");
             }
-            this.name = name;
+            Name = name;
         }
         public void Add(IComponent component)
         {
@@ -40,11 +41,7 @@ namespace Composite
         }
         public void Print()
         {
-            if (name == null)
-            {
-                throw new ArgumentNullException(nameof(name), "Имени не обнаружено!");
-            }
-            Console.WriteLine($"{name}:");
+            Console.WriteLine($"{Name}:");
             _menuOfComponents.ForEach(component => component.Print());
         }
 

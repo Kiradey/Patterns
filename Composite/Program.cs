@@ -26,7 +26,7 @@ namespace Composite
             var sectionOfBakery = new Section("Выпечка");
             sectionOfBakery.Add(pancake);
 
-            var menu = new Menu("Ресторан.");
+            var menu = new Menu("заведения");
             menu.Add(sectionOfBakery);
             menu.Add(sectionOfFish);
             menu.Add(sectionOfMeat);
