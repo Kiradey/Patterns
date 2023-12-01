@@ -1,0 +1,15 @@
+C:\Users\Hi-tech\source\repos\ChainOfrespons\obj\Debug\net6.0\EChainOfRespons.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\ChainOfrespons\obj\Debug\net6.0\EChainOfRespons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\source\repos\ChainOfrespons\obj\Debug\net6.0\EChainOfRespons.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\source\repos\ChainOfrespons\obj\Debug\net6.0\EChainOfRespons.AssemblyInfo.cs
+C:\Users\Hi-tech\source\repos\ChainOfrespons\obj\Debug\net6.0\EChainOfRespons.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\source\repos\ChainOfrespons\bin\Debug\net6.0\EChainOfRespons.exe
+C:\Users\Hi-tech\source\repos\ChainOfrespons\bin\Debug\net6.0\EChainOfRespons.deps.json
+C:\Users\Hi-tech\source\repos\ChainOfrespons\bin\Debug\net6.0\EChainOfRespons.runtimeconfig.json
+C:\Users\Hi-tech\source\repos\ChainOfrespons\bin\Debug\net6.0\EChainOfRespons.dll
+C:\Users\Hi-tech\source\repos\ChainOfrespons\bin\Debug\net6.0\EChainOfRespons.pdb
+C:\Users\Hi-tech\source\repos\ChainOfrespons\obj\Debug\net6.0\EChainOfRespons.dll
+C:\Users\Hi-tech\source\repos\ChainOfrespons\obj\Debug\net6.0\refint\EChainOfRespons.dll
+C:\Users\Hi-tech\source\repos\ChainOfrespons\obj\Debug\net6.0\EChainOfRespons.pdb
+C:\Users\Hi-tech\source\repos\ChainOfrespons\obj\Debug\net6.0\EChainOfRespons.genruntimeconfig.cache
+C:\Users\Hi-tech\source\repos\ChainOfrespons\obj\Debug\net6.0\ref\EChainOfRespons.dll
