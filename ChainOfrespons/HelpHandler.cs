@@ -8,9 +8,9 @@ namespace ChainOfrespons
         {
             _helpHandler = helpHandler;
         }
-
         public virtual string HandleHelp(HelpRequest helpRequest)
         {
+            if (helpRequest == null) { throw new ArgumentNullException(nameof(helpRequest), "Пустое значение!"); }
             if (IsSupportRequest(helpRequest))
             {
                 return BuildHelpString(helpRequest);
@@ -21,14 +21,8 @@ namespace ChainOfrespons
             }
             return BuildDefaultHelpString(helpRequest);
         }
-        //  protected abstract bool IsSupportRequest(HelpRequest helpRequest)
         protected abstract bool IsSupportRequest(HelpRequest helpRequest);
-        // проверка-если цифра либо символ операции, то возвращает true
         protected abstract string BuildHelpString(HelpRequest helpRequest);
-        //это такая-то цифра, либо это такая-то кнопка
-        protected virtual string BuildDefaultHelpString(HelpRequest helpRequest)
-        {
-            return "Вы попали в базовый обработчик";
-        }
+        protected abstract string BuildDefaultHelpString(HelpRequest helpRequest);
     }
 }

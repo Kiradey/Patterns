@@ -9,13 +9,13 @@ class program
         var intButtonHelpHandler = new IntButtonHelpHandler(buttonHelpHandler);
         var operationHelpHandler = new OperationButtonHelpHandler(buttonHelpHandler);
 
-        // intButtonHandler.SetHandler(buttonHandler);
-        // buttonHandler.SetHandler(applicationHandler);
-
-        Console.WriteLine(intButtonHelpHandler.HandleHelp(new HelpRequest('1'))); //"это цифра '1'"
-        Console.WriteLine(intButtonHelpHandler.HandleHelp(new HelpRequest('+'))); // обязанность делегирует в buttonHelp, выводит "эта кнопка '+'"
-        Console.WriteLine(intButtonHelpHandler.HandleHelp(new HelpRequest('m'))); // обязанность делегирует в buttonHelp, делегируется applicationHelp, выводит "Вы находитесь в калькуляторе"
-        Console.WriteLine(operationHelpHandler.HandleHelp(new HelpRequest('-'))); // "Это оператор '-'"
+        Console.WriteLine(intButtonHelpHandler.HandleHelp(new HelpRequest('1')));
+        Console.WriteLine(intButtonHelpHandler.HandleHelp(new HelpRequest('5')));
+        Console.WriteLine(intButtonHelpHandler.HandleHelp(new HelpRequest('+')));
+        Console.WriteLine(intButtonHelpHandler.HandleHelp(new HelpRequest('m')));
+        Console.WriteLine(intButtonHelpHandler.HandleHelp(new HelpRequest('д')));
+        Console.WriteLine(operationHelpHandler.HandleHelp(new HelpRequest('-')));
+        Console.WriteLine(operationHelpHandler.HandleHelp(new HelpRequest('1')));
 
         Console.ReadLine();
     }

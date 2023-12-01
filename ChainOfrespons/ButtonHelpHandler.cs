@@ -11,11 +11,27 @@ namespace ChainOfrespons
         public ButtonHelpHandler(HelpHandler helpHandler) : base(helpHandler) { }
         protected override bool IsSupportRequest(HelpRequest helpRequest)
         {
-            return char.IsLetter(helpRequest.Symbol);
+            if (helpRequest == null)
+            {
+                throw new ArgumentNullException(nameof(helpRequest), "Пустое значение!");
+            }
+            return char.IsDigit(helpRequest.Symbol) || helpRequest.Symbol == '+' || helpRequest.Symbol == '-' || helpRequest.Symbol == '*' || helpRequest.Symbol == '/';
         }
         protected override string BuildHelpString(HelpRequest helpRequest)
         {
-            return $"Это кнопка для буквы '{helpRequest.Symbol}'. Вы находитесь в калькуляторе!";
+            if (helpRequest == null)
+            {
+                throw new ArgumentNullException(nameof(helpRequest), "Пустое значение!");
+            }
+            return $"Это кнопка для символа '{helpRequest.Symbol}'";
+        }
+        protected override string BuildDefaultHelpString(HelpRequest helpRequest)
+        {
+            if (helpRequest == null)
+            {
+                throw new ArgumentNullException(nameof(helpRequest), "Пустое значение!");
+            }
+            return $"Вы нажимаете на кнопку, не касающуюся калькулятора.";
         }
     }
 }

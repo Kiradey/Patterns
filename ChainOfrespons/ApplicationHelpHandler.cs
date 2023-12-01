@@ -11,11 +11,18 @@ namespace ChainOfrespons
         public ApplicationHelpHandler(HelpHandler helpHandler) : base(helpHandler) { }
         protected override bool IsSupportRequest(HelpRequest helpRequest)
         {
+            if (helpRequest == null) { throw new ArgumentNullException(nameof(helpRequest), "Пустое значение!"); }
             return true;
         }
         protected override string BuildHelpString(HelpRequest helpRequest)
         {
-            return $"Это кнопка 'helpRequest.Symbol'";
+            if (helpRequest == null) { throw new ArgumentNullException(nameof(helpRequest), "Пустое значение!"); }
+            return $"Вы нажимаете на кнопку, не касающуюся калькулятора!";
+        }
+        protected override string BuildDefaultHelpString(HelpRequest helpRequest)
+        {
+            if (helpRequest == null) { throw new ArgumentNullException(nameof(helpRequest), "Пустое значение!"); }
+            return $"Добро пожаловать в калькулятор!";
         }
     }
 }
