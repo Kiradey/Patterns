@@ -1,0 +1,15 @@
+C:\Users\Hi-tech\source\repos\Proxy\bin\Debug\net6.0\EProxy.exe
+C:\Users\Hi-tech\source\repos\Proxy\bin\Debug\net6.0\EProxy.deps.json
+C:\Users\Hi-tech\source\repos\Proxy\bin\Debug\net6.0\EProxy.runtimeconfig.json
+C:\Users\Hi-tech\source\repos\Proxy\bin\Debug\net6.0\EProxy.dll
+C:\Users\Hi-tech\source\repos\Proxy\bin\Debug\net6.0\EProxy.pdb
+C:\Users\Hi-tech\source\repos\Proxy\obj\Debug\net6.0\EProxy.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\Proxy\obj\Debug\net6.0\EProxy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\source\repos\Proxy\obj\Debug\net6.0\EProxy.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\source\repos\Proxy\obj\Debug\net6.0\EProxy.AssemblyInfo.cs
+C:\Users\Hi-tech\source\repos\Proxy\obj\Debug\net6.0\EProxy.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\source\repos\Proxy\obj\Debug\net6.0\EProxy.dll
+C:\Users\Hi-tech\source\repos\Proxy\obj\Debug\net6.0\refint\EProxy.dll
+C:\Users\Hi-tech\source\repos\Proxy\obj\Debug\net6.0\EProxy.pdb
+C:\Users\Hi-tech\source\repos\Proxy\obj\Debug\net6.0\EProxy.genruntimeconfig.cache
+C:\Users\Hi-tech\source\repos\Proxy\obj\Debug\net6.0\ref\EProxy.dll
