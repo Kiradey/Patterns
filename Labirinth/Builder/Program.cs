@@ -10,6 +10,7 @@ namespace MazeBuilder
             MazeGame.Create(new Builder.MazeBuilder());
             MazeGame.Create(new BombedMazeBuilder());
             MazeGame.Create(new ClapedMazeBuilder());
+            //hellofromKiradey
             Console.ReadLine();
         }
     }

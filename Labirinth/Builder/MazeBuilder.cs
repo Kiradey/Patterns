@@ -14,7 +14,7 @@ namespace Builder
         {
             if (roomNumber < 0)
             {
-                throw new ArgumentException("Номер комнаты должен быть неотрицательным.");
+                throw new ArgumentException("Номер комнаты должен быть неотрицательным. Kiradey");
             }
 
             Room room = CreateRoom(roomNumber);
@@ -30,21 +30,21 @@ namespace Builder
         {
             if (roomNumber1 < 0)
             {
-                throw new ArgumentException("Номер комнаты должен быть неотрицательным.");
+                throw new ArgumentException("Номер комнаты должен быть неотрицательным. Kiradey");
             }
             if (roomNumber2 < 0)
             {
-                throw new ArgumentException("Номер комнаты должен быть неотрицательным.");
+                throw new ArgumentException("Номер комнаты должен быть неотрицательным. Kiradey");
             }
             Room? room1 = maze.NumberCheck(roomNumber1);
             Room? room2 = maze.NumberCheck(roomNumber2);
             if (room1 == null)
             {
-                throw new ArgumentException("Комнаты с указанным номером не существуют.");
+                throw new ArgumentException("Комнаты с указанным номером не существуют. Kiradey");
             }
             if (room2 == null)
             {
-                throw new ArgumentException("Комнаты с указанным номером не существуют.");
+                throw new ArgumentException("Комнаты с указанным номером не существуют. kiradey");
             }
             Door door = new Door(room1, room2, true);
             room1.SetSide(Direction.East, door);
@@ -54,7 +54,7 @@ namespace Builder
         {
             if (roomNumber < 0)
             {
-                throw new ArgumentException("Номер комнаты должен быть неотрицательным.");
+                throw new ArgumentException("Номер комнаты должен быть неотрицательным. Kiradey");
             }
             return new Room(roomNumber);
         }

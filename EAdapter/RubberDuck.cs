@@ -14,7 +14,7 @@ namespace EAdapter
         }
         public override void Fly()
         {
-            Console.WriteLine("Резиновая утка не может летать (если не кинуть)!");
+            Console.WriteLine("Резиновая утка не может летать (Kiradey)!");
         }
     }
 }

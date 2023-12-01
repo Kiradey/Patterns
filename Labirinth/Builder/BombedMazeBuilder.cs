@@ -12,7 +12,7 @@ namespace Builder
         {
             if (roomNumber < 0)
             {
-                throw new ArgumentOutOfRangeException(nameof(roomNumber), "Комната с отрицательным значением.");
+                throw new ArgumentOutOfRangeException(nameof(roomNumber), "Комната с отрицательным значением. Kiradey");
             }
             return new RoomWithBomb(roomNumber);
         }

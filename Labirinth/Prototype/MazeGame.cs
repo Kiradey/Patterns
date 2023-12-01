@@ -9,14 +9,14 @@ namespace Prototype
 {
     internal class MazeGame
     {
-        public static Maze Create(Room roomPrototype)
+        public static Maze Create(MazePrototypeFactory protoFactory)
         {
-            Room room1 = roomPrototype.Clone();
-            Room room2 = roomPrototype.Clone();
+            Room room1 = protoFactory.MakeRoom();
+            Room room2 = protoFactory.MakeRoom();
 
-            Door door = new(room1, room2, true);
+            Door door = protoFactory.MakeDoor();
 
-            Wall wall = new();
+            Wall wall = protoFactory.MakeWall();
 
             room1.SetSide(Direction.North, wall);
             room1.SetSide(Direction.South, wall);
@@ -28,12 +28,13 @@ namespace Prototype
             room2.SetSide(Direction.West, door);
             room2.SetSide(Direction.North, wall);
 
-            Maze maze = new();
+            Maze maze = protoFactory.MakeMaze();
 
             maze.AddRoom(room1);
             maze.AddRoom(room2);
 
             return maze;
+
         }
     }
 }

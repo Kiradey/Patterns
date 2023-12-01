@@ -3,7 +3,7 @@ using System;
 
 namespace AbstractFabric
 {
-    public abstract class MazeFactory
+    public class MazeFactory
     {
         public virtual Maze MakeMaze()
         {
@@ -17,7 +17,7 @@ namespace AbstractFabric
         {
             if (roomNumber <= 0)
             {
-                throw new ArgumentException("Номер комнаты должен быть положительным числом.", nameof(roomNumber));
+                throw new ArgumentException("Номер комнаты должен быть положительным числом. Kiradey", nameof(roomNumber));
             }
             return new Room(roomNumber);
         }
@@ -25,12 +25,12 @@ namespace AbstractFabric
         {
             if (room1 == null)
             {
-                throw new ArgumentNullException(nameof(room1), "Комната не может быть пустой.");
+                throw new ArgumentNullException(nameof(room1), "Комната не может быть пустой. Kiradey");
             }
 
             if (room2 == null)
             {
-                throw new ArgumentNullException(nameof(room2), "Комната не может быть пустой.");
+                throw new ArgumentNullException(nameof(room2), "Комната не может быть пустой. Kiradey");
             }
             return new Door(room1, room2, true);
         }

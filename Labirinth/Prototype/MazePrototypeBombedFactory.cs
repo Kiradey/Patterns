@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using LibraryForLabyrinth;
 namespace Prototype
 {
-    internal class Class1
+    public class MazePrototypeBombedFactory : MazePrototypeFactory
     {
+        protected MazePrototypeBombedFactory() : base(new Maze(), new RoomWithBomb(), new WallWithBomb(), new Door()) { }
     }
 }

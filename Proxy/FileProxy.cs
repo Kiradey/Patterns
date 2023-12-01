@@ -12,6 +12,7 @@ namespace Proxy
         private string _path;
         public FileProxy(string path)
         {
+            if (path == null) { throw new ArgumentNullException(nameof(path), "Вы передали пустое значение пути к файлу!"); }
             _path = path;
             _file = new File(path);
         }

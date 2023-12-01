@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AbstractFabric/1.0.0": {
+        "dependencies": {
+          "LibraryForLabyrinth": "1.0.0"
+        },
+        "runtime": {
+          "AbstractFabric.dll": {}
+        }
+      },
+      "LibraryForLabyrinth/1.0.0": {
+        "runtime": {
+          "LibraryForLabyrinth.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AbstractFabric/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibraryForLabyrinth/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

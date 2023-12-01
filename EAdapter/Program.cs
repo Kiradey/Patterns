@@ -12,7 +12,7 @@ namespace EAdapter
             Duck rubDuck = new RubberDuck();
             rubDuck.Quack();
             rubDuck.Fly();
-
+            //Hello from Kiradey
             Turkey turkey = new();
             Duck adapter = new Adapter(turkey);
             adapter.Quack();

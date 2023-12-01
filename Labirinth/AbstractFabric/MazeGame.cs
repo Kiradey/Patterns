@@ -16,7 +16,7 @@ namespace AbstractFabric
             Room room2 = factory.MakeRoom(3);
             Door door = factory.MakeDoor(room1, room2);
 
-            maze.AddRoom(room1);
+            maze.AddRoom(room1);//kiradey
             maze.AddRoom(room2);
 
             room1.SetSide(Direction.North, factory.MakeWall());
@@ -26,7 +26,7 @@ namespace AbstractFabric
 
             room2.SetSide(Direction.North, factory.MakeWall());
             room2.SetSide(Direction.East, factory.MakeWall());
-            room2.SetSide(Direction.South, factory.MakeWall());
+            room2.SetSide(Direction.South, factory.MakeWall());//kiradey
             room2.SetSide(Direction.West, door);
 
             return maze;

@@ -7,7 +7,7 @@ using AbstractFabric;
 using LibraryForLabyrinth;
 namespace Prototype
 {
-    internal class MazePrototypeFactory : MazeFactory
+    public class MazePrototypeFactory : MazeFactory
     {
         private Maze _protoMaze;
         private Room _protoRoom;
@@ -15,6 +15,22 @@ namespace Prototype
         private Door _protoDoor;
         protected MazePrototypeFactory(Maze maze, Room room, Wall wall, Door door)
         {
+            if (maze == null)
+            {
+                throw new ArgumentNullException(nameof(maze), "Пустое значение для лабиринта!");
+            }
+            if (room == null)
+            {
+                throw new ArgumentNullException(nameof(room), "Пустое значение для комнаты!");
+            }
+            if (wall == null)
+            {
+                throw new ArgumentNullException(nameof(wall), "Пустое значение для стены!");
+            }
+            if (door == null)
+            {
+                throw new ArgumentNullException(nameof(door), "Пустое значение для двери!");
+            }
             _protoMaze = maze;
             _protoRoom = room;
             _protoWall = wall;
@@ -35,7 +51,7 @@ namespace Prototype
         {
             return _protoWall.Clone();
         }
-        public  Door MakeDoor()
+        public Door MakeDoor()
         {
             return _protoDoor.Clone();
         }

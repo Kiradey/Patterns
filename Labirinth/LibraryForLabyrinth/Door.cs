@@ -39,7 +39,7 @@ namespace LibraryForLabyrinth
                 throw new ArgumentOutOfRangeException(nameof(site), site, "Неверный номер комнаты.");
             }
         }
-        public Door() { }
+       public Door() { }
         public virtual void Enter()
         {
             if (_isOpen)

@@ -9,11 +9,11 @@ namespace AbstractFabric
         {
             if (room1 == null)
             {
-                throw new ArgumentNullException("Комната не может быть пустой.");
+                throw new ArgumentNullException("Комната не может быть пустой. Kiradey");
             }
             if (room2 == null)
             {
-                throw new ArgumentNullException("Комната не может быть пустой.");
+                throw new ArgumentNullException("Комната не может быть пустой. Kiradey");
             }
             return new DoorWithClap(room1, room2);
         }

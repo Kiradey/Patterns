@@ -13,7 +13,7 @@ namespace AbstractFabric
         {
             if (roomNumber < 1)
             {
-                throw new ArgumentException("Номер комнаты должен быть больше 0.", nameof(roomNumber));
+                throw new ArgumentException("Номер комнаты должен быть больше 0. Kiradey", nameof(roomNumber));
             }
             return new RoomWithBomb(roomNumber);
         }
