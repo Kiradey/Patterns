@@ -1,0 +1,15 @@
+C:\Users\Hi-tech\source\repos\Mediator\bin\Debug\net6.0\Mediator.exe
+C:\Users\Hi-tech\source\repos\Mediator\bin\Debug\net6.0\Mediator.deps.json
+C:\Users\Hi-tech\source\repos\Mediator\bin\Debug\net6.0\Mediator.runtimeconfig.json
+C:\Users\Hi-tech\source\repos\Mediator\bin\Debug\net6.0\Mediator.dll
+C:\Users\Hi-tech\source\repos\Mediator\bin\Debug\net6.0\Mediator.pdb
+C:\Users\Hi-tech\source\repos\Mediator\obj\Debug\net6.0\Mediator.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\Mediator\obj\Debug\net6.0\Mediator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\source\repos\Mediator\obj\Debug\net6.0\Mediator.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\source\repos\Mediator\obj\Debug\net6.0\Mediator.AssemblyInfo.cs
+C:\Users\Hi-tech\source\repos\Mediator\obj\Debug\net6.0\Mediator.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\source\repos\Mediator\obj\Debug\net6.0\Mediator.dll
+C:\Users\Hi-tech\source\repos\Mediator\obj\Debug\net6.0\refint\Mediator.dll
+C:\Users\Hi-tech\source\repos\Mediator\obj\Debug\net6.0\Mediator.pdb
+C:\Users\Hi-tech\source\repos\Mediator\obj\Debug\net6.0\Mediator.genruntimeconfig.cache
+C:\Users\Hi-tech\source\repos\Mediator\obj\Debug\net6.0\ref\Mediator.dll
