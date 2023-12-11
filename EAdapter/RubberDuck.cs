@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EAdapter
 {
-    internal class RubberDuck:Duck
+    internal class RubberDuck : Duck
     {
         public override void Quack()
         {

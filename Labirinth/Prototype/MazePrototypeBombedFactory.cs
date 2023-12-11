@@ -8,6 +8,8 @@ namespace Prototype
 {
     public class MazePrototypeBombedFactory : MazePrototypeFactory
     {
-        protected MazePrototypeBombedFactory() : base(new Maze(), new RoomWithBomb(), new WallWithBomb(), new Door()) { }
+        public MazePrototypeBombedFactory()
+                    : base(new Maze(), new RoomWithBomb(0), new WallWithBomb(), new Door(new Room(0), new Room(1))) { }
     }
 }
+

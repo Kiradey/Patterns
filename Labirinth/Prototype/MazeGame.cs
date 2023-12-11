@@ -11,10 +11,10 @@ namespace Prototype
     {
         public static Maze Create(MazePrototypeFactory protoFactory)
         {
-            Room room1 = protoFactory.MakeRoom();
-            Room room2 = protoFactory.MakeRoom();
+            Room room1 = protoFactory.MakeRoom(1);
+            Room room2 = protoFactory.MakeRoom(2);
 
-            Door door = protoFactory.MakeDoor();
+            Door door = protoFactory.MakeDoor(room1, room2);
 
             Wall wall = protoFactory.MakeWall();
 

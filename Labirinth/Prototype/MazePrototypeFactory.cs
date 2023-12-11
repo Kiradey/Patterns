@@ -36,9 +36,9 @@ namespace Prototype
             _protoWall = wall;
             _protoDoor = door;
         }
-        public MazePrototypeFactory()
-        : this(new Maze(), new Room(), new Wall(), new Door())
-        { }
+        public MazePrototypeFactory() : this(new Maze(), new Room(0), new Wall(), new Door(new Room(0), new Room(1)))
+        {
+        }
         public override Maze MakeMaze()
         {
             return _protoMaze.Clone();

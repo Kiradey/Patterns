@@ -9,6 +9,7 @@ namespace Prototype
 {
     public class MazePrototypeClapedFactory : MazePrototypeFactory
     {
-        protected MazePrototypeClapedFactory() : base(new Maze(), new RoomWithClap(), new Wall(), new Door()) { }
+        public MazePrototypeClapedFactory()
+                  : base(new Maze(), new RoomWithClap(0), new Wall(), new Door(new Room(0), new Room(1))) { }
     }
 }

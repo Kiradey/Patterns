@@ -13,3 +13,9 @@ C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\refint\EAdapter.dll
 C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\EAdapter.pdb
 C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\EAdapter.genruntimeconfig.cache
 C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\ref\EAdapter.dll
+C:\Users\Hi-tech\source\repos\EAdapter\bin\Debug\net6.0\EStrategy.deps.json
+C:\Users\Hi-tech\source\repos\EAdapter\bin\Debug\net6.0\EStrategy.runtimeconfig.json
+C:\Users\Hi-tech\source\repos\EAdapter\bin\Debug\net6.0\EStrategy.exe
+C:\Users\Hi-tech\source\repos\EAdapter\bin\Debug\net6.0\EStrategy.dll
+C:\Users\Hi-tech\source\repos\EAdapter\bin\Debug\net6.0\EStrategy.pdb
+C:\Users\Hi-tech\source\repos\EAdapter\obj\Debug\net6.0\EAdapter.csproj.CopyComplete

@@ -1,0 +1,15 @@
+C:\Users\Hi-tech\source\repos\Composite\bin\Debug\net6.0\EComposite.exe
+C:\Users\Hi-tech\source\repos\Composite\bin\Debug\net6.0\EComposite.deps.json
+C:\Users\Hi-tech\source\repos\Composite\bin\Debug\net6.0\EComposite.runtimeconfig.json
+C:\Users\Hi-tech\source\repos\Composite\bin\Debug\net6.0\EComposite.dll
+C:\Users\Hi-tech\source\repos\Composite\bin\Debug\net6.0\EComposite.pdb
+C:\Users\Hi-tech\source\repos\Composite\obj\Debug\net6.0\EComposite.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\Composite\obj\Debug\net6.0\EComposite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\source\repos\Composite\obj\Debug\net6.0\EComposite.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\source\repos\Composite\obj\Debug\net6.0\EComposite.AssemblyInfo.cs
+C:\Users\Hi-tech\source\repos\Composite\obj\Debug\net6.0\EComposite.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\source\repos\Composite\obj\Debug\net6.0\EComposite.dll
+C:\Users\Hi-tech\source\repos\Composite\obj\Debug\net6.0\refint\EComposite.dll
+C:\Users\Hi-tech\source\repos\Composite\obj\Debug\net6.0\EComposite.pdb
+C:\Users\Hi-tech\source\repos\Composite\obj\Debug\net6.0\EComposite.genruntimeconfig.cache
+C:\Users\Hi-tech\source\repos\Composite\obj\Debug\net6.0\ref\EComposite.dll
