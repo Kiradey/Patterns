@@ -3,10 +3,11 @@ namespace LibraryForLabyrinth
 {
     public class Door : IMapSite
     {
+        private static Random rand = new();
         private Room _room1;
         private Room _room2;
         private readonly bool _isOpen;
-        public Door(Room room1, Room room2, bool isOpen)
+        public Door(Room room1, Room room2)
         {
             if (room1 == null)
             {
@@ -18,7 +19,7 @@ namespace LibraryForLabyrinth
             }
             _room1 = room1;
             _room2 = room2;
-            _isOpen = isOpen;
+            _isOpen = rand.Next(2) == 0;
         }
         public Room OtherSideFrom(Room site)
         {
@@ -39,7 +40,7 @@ namespace LibraryForLabyrinth
                 throw new ArgumentOutOfRangeException(nameof(site), site, "Неверный номер комнаты.");
             }
         }
-       public Door() { }
+      // public Door() { }
         public virtual void Enter()
         {
             if (_isOpen)
@@ -53,7 +54,7 @@ namespace LibraryForLabyrinth
         }
         public Door Clone()
         {
-            return new Door(_room1.Clone(), _room2.Clone(), true);
+            return new Door(_room1.Clone(), _room2.Clone());
         }
         public void Initializing(Room room1, Room room2)
         {

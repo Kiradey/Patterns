@@ -3,16 +3,15 @@ namespace LibraryForLabyrinth
 {
     public class Room : IMapSite
     {
-        public int roomNumber { get; private set; }
-        protected IMapSite[] SideInit { get; private set; }
-        public Room(int roomNumber)
+        internal int roomNumber { get; private set; }
+        protected IMapSite[] SideInit = new IMapSite[4];
+        public Room(int roomNumber1)
         {
-            if (roomNumber <= 0)
+            if (roomNumber1 <= 0)
             {
                 throw new ArgumentException(nameof(roomNumber), "Неверный номер комнаты.");
             }
-            this.roomNumber = roomNumber;
-            SideInit = new IMapSite[4];
+            roomNumber = roomNumber1;
         }
         public virtual void Enter()
         {
@@ -30,13 +29,13 @@ namespace LibraryForLabyrinth
         {
             return new Room(roomNumber);
         }
-        public void Initializing(int roomNumber)
+        public void Initializing(int roomNumber1)
         {
-            if (roomNumber < 0)
+            if (roomNumber1 < 0)
             {
-                throw new ArgumentOutOfRangeException(nameof(roomNumber), "Комната с отрицательным номером.");
+                throw new ArgumentOutOfRangeException(nameof(roomNumber1), "Комната с отрицательным номером.");
             }
-            this.roomNumber = roomNumber;
+            roomNumber = roomNumber1;
         }
     }
 }

@@ -29,7 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EProxy", "..\Proxy\EProxy.c
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EChainOfRespons", "..\ChainOfrespons\EChainOfRespons.csproj", "{0661AA4B-A5BA-4AF0-8C18-781C1156B39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommand", "..\Command\ECommand.csproj", "{0658DE4C-CBEE-46E8-8260-E4848AEA0381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommand", "..\Command\ECommand.csproj", "{0658DE4C-CBEE-46E8-8260-E4848AEA0381}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EStrategy", "..\EStrategy\EStrategy.csproj", "{80A3E15E-D58D-4CFB-B9A1-CC266DBCBEED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "..\Mediator\Mediator.csproj", "{A0F6C70E-826D-4999-AE21-47402B02F1E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "..\TemplateMethod\TemplateMethod.csproj", "{3DAB8FE8-8E46-449E-8D4A-D9DAD4218E9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +99,18 @@ Global
 		{0658DE4C-CBEE-46E8-8260-E4848AEA0381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0658DE4C-CBEE-46E8-8260-E4848AEA0381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0658DE4C-CBEE-46E8-8260-E4848AEA0381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A3E15E-D58D-4CFB-B9A1-CC266DBCBEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A3E15E-D58D-4CFB-B9A1-CC266DBCBEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A3E15E-D58D-4CFB-B9A1-CC266DBCBEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A3E15E-D58D-4CFB-B9A1-CC266DBCBEED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F6C70E-826D-4999-AE21-47402B02F1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F6C70E-826D-4999-AE21-47402B02F1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F6C70E-826D-4999-AE21-47402B02F1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F6C70E-826D-4999-AE21-47402B02F1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DAB8FE8-8E46-449E-8D4A-D9DAD4218E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DAB8FE8-8E46-449E-8D4A-D9DAD4218E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DAB8FE8-8E46-449E-8D4A-D9DAD4218E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DAB8FE8-8E46-449E-8D4A-D9DAD4218E9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
