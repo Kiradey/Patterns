@@ -1,0 +1,15 @@
+C:\Users\Hi-tech\source\repos\Command\obj\Debug\net6.0\ECommand.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\Command\obj\Debug\net6.0\ECommand.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\source\repos\Command\obj\Debug\net6.0\ECommand.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\source\repos\Command\obj\Debug\net6.0\ECommand.AssemblyInfo.cs
+C:\Users\Hi-tech\source\repos\Command\obj\Debug\net6.0\ECommand.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\source\repos\Command\bin\Debug\net6.0\ECommand.exe
+C:\Users\Hi-tech\source\repos\Command\bin\Debug\net6.0\ECommand.deps.json
+C:\Users\Hi-tech\source\repos\Command\bin\Debug\net6.0\ECommand.runtimeconfig.json
+C:\Users\Hi-tech\source\repos\Command\bin\Debug\net6.0\ECommand.dll
+C:\Users\Hi-tech\source\repos\Command\bin\Debug\net6.0\ECommand.pdb
+C:\Users\Hi-tech\source\repos\Command\obj\Debug\net6.0\ECommand.dll
+C:\Users\Hi-tech\source\repos\Command\obj\Debug\net6.0\refint\ECommand.dll
+C:\Users\Hi-tech\source\repos\Command\obj\Debug\net6.0\ECommand.pdb
+C:\Users\Hi-tech\source\repos\Command\obj\Debug\net6.0\ECommand.genruntimeconfig.cache
+C:\Users\Hi-tech\source\repos\Command\obj\Debug\net6.0\ref\ECommand.dll

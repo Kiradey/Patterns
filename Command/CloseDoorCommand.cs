@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace Command
 {
-     class CloseDoorCommand:ICommand
+    internal class CloseDoorCommand : ICommand
     {
-        
+        private Door _door;
+        public CloseDoorCommand(Door door)
+        {
+            if (door == null) { throw new ArgumentNullException(nameof(door), "Пустое значение!"); }
+            _door = door;
+        }
+        public void Execute()
+        {
+            _door.Close();
+        }
     }
 }

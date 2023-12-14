@@ -8,19 +8,18 @@ namespace Command
 {
     public class Remote
     {
-        private Dictionary<int, ICommand> commands = new Dictionary<int, ICommand>();
-        private Stack<ICommand> undoStack = new Stack<ICommand>();
+        private Dictionary<int, (ICommand Remult, ICommand Undo)> _command = new Dictionary<int, (ICommand, ICommand)>();
+        private Stack<ICommand> _undo = new();
         public void Add(int number, ICommand remult, ICommand undo)
         {
-            commands.Add(number, remult);
-            undoStack.Push(undo);
+            _command.Add(number, (remult, undo));
         }
         public void Execute(int number)
         {
-            if (commands.ContainsKey(number))
+            if (_command.ContainsKey(number))
             {
-                ICommand remult = commands[number];
-                remult.Execute();
+                _command[number].Remult.Execute();
+                _undo.Push(_command[number].Undo);
             }
             else
             {
@@ -29,10 +28,9 @@ namespace Command
         }
         public void Undo()
         {
-            if (undoStack.Count > 0)
+            if (_undo.Count > 0)
             {
-                ICommand command = undoStack.Pop();
-                command.Execute();
+                _undo.Pop().Execute();
             }
             else
             {
